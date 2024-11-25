@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.navbar{
+    color: brown;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar input{
+    width: 250px;
+    height: 30px;
+    
+}
+.addanewblog{
+    text-align: center;
+   
+}
+.addanewblog h1{
+    color: brown;
+}
+.addanewblog input{
+    width: 250px;
+    height: 40px;
+}
+
+.addanewblog button{
+    border-radius: 10%;
+    border-style: none;
+    width: 90px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    margin-top: 20px;
+}
+.row{
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+.card{
+    border-radius: 3%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.57);
+    text-align: center;
+    border: 0.5px solid gainsboro;
+    width: 350px;
+    height: 300px;
+}
+.card-title h2{
+    color: brown;
+    font-size: 24px;
+}
+.card-title a{
+    color: rgb(7, 124, 171);
+}
+.card-title span{
+    color: gray;
+    font-size: 18px;
+}
+.delete-btn{
+    border-radius: 10%;
+    border-style: none;
+    width: 80px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    margin-top: 20px;
+}
+.edit-btn{
+    border-radius: 10%;
+    border-style: none;
+    width: 80px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    margin-top: 20px;
+}
+.edit-btn a{
+    color: white;
+}
